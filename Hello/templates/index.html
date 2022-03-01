@@ -1,0 +1,99 @@
+{%extends 'base.html' %}
+
+{%block title%}welcome to {%endblock title%}
+
+{%block body%}
+<div class = "container my-2">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/pub-food-spread.jpg" class="d-block w-100" alt="..." height="500" width="200">
+      <div class="carousel-caption d-none d-md-block">
+        <h1><font color="black">welcome to the rani pizza services</font></h1>
+        <p><font color="black"><b>we deliver the best pizza in your city.once u try there is no option to back</b></font></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/dinner-for-one-of-wood-fired-pizza-paired-with-cold-beer.jpg" class="d-block w-100" alt="..." height="500" width="200">
+      <div class="carousel-caption d-none d-md-block">
+        <h1><font color="black">welcome to the rani pizza services</font></h1>
+        <p><font color="black"><b>we deliver the best pizza in your city.once u try there is no option to back</b></font></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/first-slice-of-fresh-margarita-pizza.jpg" class="d-block w-100" alt="..." height="500" width="200">
+      <div class="carousel-caption d-none d-md-block">
+        <h1><font color="black">welcome to the rani pizza services</font></h1>
+        <p><font color="black"><b>we deliver the best pizza in your city.once u try there is no option to back</b></font></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="album py-5 bg-light">
+    <div class="container my-3">
+      <h1 class="my-2 text-center">select any pizza combo</h1>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/pub-food-spread.jpg" class="d-block w-100" alt="..." height="300" width="200">
+
+            <div class="card-body">
+              <p class="card-text">it has not only mushrooms .it has tomato,chicken and fully loaded cheese. try this pizza once.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">Veg</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">Non-veg</button>
+                </div>
+                <small class="text-muted"> Mushroom pizza</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/dinner-for-one-of-wood-fired-pizza-paired-with-cold-beer.jpg" class="d-block w-100" alt="..." height="300" width="200">
+
+            <div class="card-body">
+              <p class="card-text">it has tomato pasta inside that make its more delicious.try it with some beer</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">Veg</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">Non-veg</button>
+                </div>
+                <small class="text-muted">Tomato pasta pizza</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/first-slice-of-fresh-margarita-pizza.jpg" class="d-block w-100" alt="..." height="300" width="200">
+
+            <div class="card-body">
+              <p class="card-text">this pizza keeps your phone aside because it has loaded cheese which can't be handle.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">Veg</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">Non-veg</button>
+                </div>
+                <small class="text-muted">Magherrata Cheese pizza</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+{%endblock body%}
